@@ -1,0 +1,9 @@
+# You can also define this as an Okteto Secret 
+# with the name TERMINAL_CREDENTIAL
+# learn more at https://okteto.com/docs/cloud/secrets.html
+credentials: "hello:okteto"
+
+resources:
+  limits:
+    memory: "64Mi"
+    cpu: "100m"

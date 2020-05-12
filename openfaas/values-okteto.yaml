@@ -1,6 +1,7 @@
 # this will be replaced by Okteto during deployment
 functionNamespace: $NAMESPACE
 
+# username is "admin"
 basicAuthPassword: "Password123!"
 
 faasIdler:
